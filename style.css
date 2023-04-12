@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 250, 230);
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 52px;
+    color: darkolivegreen;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+div.recipes {
+    display: inline-flex;
+    gap: 2.5rem;
+    margin-top: 30px;
+
+}
+div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 5%;
+}
+
+img {
+    width: 360px;
+    height:200px;
+    border-radius: 5%;
+}
+
+div.caption {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+
