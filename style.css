@@ -8,8 +8,9 @@ body {
 
 h1 {
     font-family: 'Cookie', cursive;
-    font-size: 52px;
-    color: darkolivegreen;
+    font-size: 80px;
+    color: rgb(52, 73, 17);
+    text-shadow: 5px 5px rgb(231, 231, 191);
     text-align: center;
 }
 
@@ -33,10 +34,12 @@ div.polaroid {
     border-radius: 5%;
 }
 
-img {
+.image {
     width: 360px;
     height:200px;
     border-radius: 5%;
+    transition: .5 ease;
+    backface-visibility: hidden;
 }
 
 div.caption {
@@ -44,6 +47,27 @@ div.caption {
     padding: 10px 20px;
 }
 
+div.window {
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.polaroid:hover .image,
+.polaroid:hover .caption {
+    opacity: 0.3;
+}
 
+.polaroid:hover .window {
+    opacity: 1;
+}
 
+.text { 
+    display: block; 
+    color: rgb(19, 26, 8);
+    font-size: 30px;
+    padding: 2px, 4px;
+}
