@@ -28,13 +28,13 @@ main {
 }
 
 
-div.recipes {
+.recipes {
     display: flex;
     gap: 2.5rem;
     margin-top: 30px;
 
 }
-div.polaroid {
+.polaroid {
     width: 100%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -50,7 +50,7 @@ div.polaroid {
     backface-visibility: hidden;
 }
 
-div.caption {
+.caption {
     text-align: center;
     padding: 10px 20px;
     font-family: "Jost", sans-serif;
@@ -58,7 +58,7 @@ div.caption {
     color: rgb(42, 54, 20);
 }
 
-div.window {
+.window {
     transition: .5 ease;
     opacity: 0;
     position: absolute;
@@ -76,9 +76,3 @@ div.window {
     opacity: 1;
 }
 
-.text { 
-    display: block; 
-    color: rgb(19, 26, 8);
-    font-size: 30px;
-    padding: 2px, 4px;
-}
