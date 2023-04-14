@@ -51,9 +51,11 @@ h3 {
     padding-left: 3%;
 }
 
-div {
-    display: inline-flex;
-    align-items: center;
+div.ing {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 ul {
@@ -65,13 +67,11 @@ ul {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     margin-left: 3%;
-    list
 }
 
 .ing.serving {
     flex-direction: column;
-    gap: 0.5rem;
-    float: right;
+    gap: 0.2rem;
 }
 
 .number,
@@ -79,9 +79,7 @@ ul {
     background-color: rgb(216, 240, 176);
     box-shadow: 2px 2px rgb(165, 165, 125);
     margin: 5%;
-    align-items: center;
     padding: 5%;
-    gap: 0.5rem;
 }
 
 
