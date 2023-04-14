@@ -29,7 +29,7 @@ main {
 
 
 div.recipes {
-    display: inline-flex;
+    display: flex;
     gap: 2.5rem;
     margin-top: 30px;
 
@@ -53,6 +53,9 @@ div.polaroid {
 div.caption {
     text-align: center;
     padding: 10px 20px;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    color: rgb(42, 54, 20);
 }
 
 div.window {
