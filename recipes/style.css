@@ -31,6 +31,14 @@ h1 {
     color: rgb(45, 59, 18);
     font-size: 65px;
     text-shadow: 2px 2px rgb(165, 165, 125);
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+    from {color: rgb(45, 59, 18);}
+    to {color: rgb(126, 194, 1)}
 }
 
 h3 {
