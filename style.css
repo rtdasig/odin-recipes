@@ -12,6 +12,14 @@ h1 {
     color: rgb(52, 73, 17);
     text-shadow: 5px 5px rgb(231, 231, 191);
     text-align: center;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+    from {color: rgb(45, 59, 18);}
+    to {color: rgb(90, 138, 1)}
 }
 
 main {
@@ -35,8 +43,8 @@ div.polaroid {
 }
 
 .image {
-    width: 360px;
-    height:200px;
+    width: 480px;
+    height:280px;
     border-radius: 5%;
     transition: .5 ease;
     backface-visibility: hidden;
